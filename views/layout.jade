@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/foundation.css')
+    script(src='/javascripts/modernizr.js')
+  body
+    nav(class='top-bar', data-topbar)
+      ul(class='title-area')
+        li(class='name')
+          h1
+            a(href='/') PaaS Workshop
+      section(class='top-bar-section')
+        ul(class='right')
+          li
+            a(href='/') Home
+          li
+            a(href='/collections/odca') Data
+    block content
+    script(src='/javascripts/jquery.js')
+    script(src='/javascripts/foundation.min.js')
+    script(type='text/javascript').
+      $(document).foundation();

@@ -1,0 +1,8 @@
+---
+applications:
+- name: PaaSTutorial
+  memory: 256M
+  services:
+    - ocdadb
+
+

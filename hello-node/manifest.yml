@@ -1,0 +1,6 @@
+---
+applications:
+- name: webjs-wll
+  memory: 256M
+
+
