@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  div(class='row')
+    div(class='large-12 columns')
+    h3(style='color: #01786E') Sessions for #{attendee.firstname} #{attendee.lastname}
+    hr
+  div(class='row')
+    div(class='large-12 columns')
+      table
+        thead
+          th Session Name
+          th Date
+          th Completed?
+        tbody
+          each session, i in attendee.sessions
+            tr
+              td #{session.name}
+              td #{session.date}
+              if session.completed
+                td &#x2713;
+              else
+                td &nbsp;
+ 
