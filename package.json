@@ -4,7 +4,7 @@
   "author": "Wayne Lund",
   "private": true,
   "scripts": {
-      "start" : "node web.js"
+      "start" : "node Index.js"
   },
   "dependencies" : {
     "express": "3.3.4",
