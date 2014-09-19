@@ -1,6 +1,7 @@
 ---
 applications:
-- name: webjs-wll
+- name: webjs-X
   memory: 256M
+  instances: 2
 
 

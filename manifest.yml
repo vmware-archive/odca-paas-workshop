@@ -1,8 +1,8 @@
 ---
 applications:
-- name: PaaSTutorial
+- name: PaaSTutorial-userX
   memory: 256M
   services:
-    - ocdadb
+    - mymongo-userjfo
 
 

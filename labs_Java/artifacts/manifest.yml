@@ -1,6 +1,6 @@
 ---
 applications:
-- name: map-userjfo 
+- name: map-userX 
   memory: 512M 
   instances: 2
   host: map-userjfo
