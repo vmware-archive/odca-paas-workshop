@@ -1,0 +1,3 @@
+{"firstname": "Brian", "lastname": "Jimerson", "address": "123 Main St.", "city": "Akron", "state": "OH", "zipcode": "44313", "email": "bjimerson@pivotal.io", "sessions": [ { "name": "Session 1", "date": "2014-09-01", "completed": true }, { "name": "Session 2", "date": "2014-08-06", "completed": false} ]}
+{"firstname": "Sally", "lastname": "Struthers", "address": "456 Oak St.", "city": "Akron", "state": "OH", "zipcode": "44313", "email": "sstruthers@gmail.com", "sessions": [ ]}
+{"firstname": "John", "lastname": "Doe", "address": "1111 Peach St.", "city": "Akron", "state": "OH", "zipcode": "44313", "email": "jdoe@gmail.com", "sessions": [ ]}

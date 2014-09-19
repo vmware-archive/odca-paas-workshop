@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  div(class='row')
+    div(class='large-12 columns')
+    h3(style='color: #01786E') All Attendees
+    hr
+  div(class='row')
+    div(class='large-12 columns')
+      table
+        thead
+          th First Name
+          th Last Name
+          th Address
+          th City
+          th State
+          th Zip Code
+          th Email Address
+        tbody
+          each attendee, i in attendees
+            tr
+              if attendee.sessions && attendee.sessions.length > 0
+               td
+                 a(href='#{attendee._id}/sessions') #{attendee.firstname}
+              else
+               td #{attendee.firstname}
+              td #{attendee.lastname}
+              td #{attendee.address}
+              td #{attendee.city}
+              td #{attendee.state}
+              td #{attendee.zipcode}
+              td #{attendee.email}
