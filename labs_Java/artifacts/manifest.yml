@@ -1,9 +1,9 @@
 ---
 applications:
-- name: map-user2 
+- name: map-userjfo 
   memory: 512M 
   instances: 2
-  host: map-user2
-  path: ../pcfdemo-us.war
+  host: map-userjfo
+  path: pcfdemo-us.war
   services:
-    - rabbit
+    - myRabbit-userjfo
