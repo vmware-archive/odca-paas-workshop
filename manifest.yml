@@ -2,7 +2,4 @@
 applications:
 - name: PaaSTutorial-userX
   memory: 256M
-  services:
-    - mymongo-userjfo
-
 
